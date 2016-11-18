@@ -5,34 +5,30 @@
         <title>Datatable Basic</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.1/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.0/css/select.dataTables.min.css">
         <script src="../libs/jquery-3.1.0.js"></script>
         <script src="../libs/jquery.dataTables.min.js"></script>
+        <script src="../libs/dataTables.buttons.min.js"></script>
+        <script src="../libs/dataTables.select.min.js"></script>
+        <script src="../libs/dataTables.editor.min.js"></script>
         <script src="script/basic.js"></script>
     </head>
     <body>
     	<div id="main-view">
             <h1>Datatable Example</h1>
-            <table id="example" class="cell-border" cellspacing="0" width="100%">
+            <table id="example" class="display" cellspacing="0" width="100%">
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th></th>
+                        <th>First name</th>
+                        <th>Last name</th>
                         <th>Position</th>
                         <th>Office</th>
-                        <th>Extn.</th>
                         <th>Start date</th>
                         <th>Salary</th>
                     </tr>
                 </thead>
-                <tfoot>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Extn.</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
     </body>
