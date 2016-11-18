@@ -4,8 +4,11 @@ $(document).ready(function() {
         "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
         	if(aData[2] == 'Tokyo'){
             	$(nRow).css('background-color', '#DFF2BF').css('color', '#4F8A10').css('font-weight', 'bold'); 
-            }else if(aData[2] == 'New York'){
-            	nRow.cells[2].style.color = 'red';
+            }else if( aData[2] == 'New York' ){
+            	nRow.cells[2].style.color = 'red';            	
+            }
+            if(aData[1] == 'Software Engineer'){
+            	nRow.cells[1].style.background = '#4F8A10';
             }
         },
     } );
